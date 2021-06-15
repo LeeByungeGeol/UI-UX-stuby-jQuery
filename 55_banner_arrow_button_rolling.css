@@ -1,0 +1,97 @@
+#mainBanner{
+    width: 100%;
+    height: 480px;
+    position: relative;
+}
+.banner{
+    width: 500%;
+    height: 100%;
+}
+.banner>li{
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.banner>.b1{
+    background-image: url(../images/mainBanner_01.jpg);
+}
+
+.banner>.b2{
+    background-image: url(../images/mainBanner_02.jpg);
+}
+
+.banner>.b3{
+    background-image: url(../images/mainBanner_03.jpg);
+}
+
+.banner>.b4{
+    background-image: url(../images/mainBanner_04.jpg);
+}
+
+.arrow>li{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.arrow>.leftBtn{
+    left: 0;
+}
+.arrow>.rightBtn{
+    right: 0;
+}
+
+.btn{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn>li{
+    float: left;
+    margin: 0 5px;
+}
+
+.btn>li>a{
+    display: block;
+    width: 40px;
+    height: 10px;
+    background: white;
+}
+.btn>.active>a{
+    background: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

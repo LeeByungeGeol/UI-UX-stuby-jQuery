@@ -1,0 +1,53 @@
+#mainBanner{
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner{
+    width: 800%;
+}
+.banner>li{
+    float: left;
+    /* 배경으로 그림을 입력하면, width,height 값 필수 */
+}
+.controlWrap{
+    position: absolute;
+    right: 10px; 
+    bottom: 10px;
+    background: #ddd;
+}
+.controlWrap>*{
+    float: left;
+    font-size: 25px;
+}
+.text>span{
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+}
+.btn>li{
+    display: inline-block;
+}
+.btn>li>a{
+    display: block;
+    width: 48px;
+    height: 48px;
+/*    background: white;*/
+/*    border-radius: 50%;*/
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: -9999px;
+}
+.btn>.left>a{
+    background-image: url(../images/back.png);
+}
+.btn>.right>a{
+    background-image: url(../images/reward.png);
+}
+.btn>.playStop>a{
+    background-image: url(../images/pause.png);
+}
+.btn>.playStop.on>a{
+    background-image: url(../images/platy.png);
+}
