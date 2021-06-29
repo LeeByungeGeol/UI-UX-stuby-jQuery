@@ -1,0 +1,53 @@
+#mainBanner {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 600%;
+    height: 100%;
+}
+
+.banner>li {
+    width: 16.66%;
+    height: 100%;
+    float: left;
+}
+
+.controllWrap {
+    position: absolute;
+    bottom: -10px;
+    left: 26%;
+}
+
+.controllWrap>* {
+    float: left;
+}
+
+.controllWrap>.controll>li {
+    display: inline-block;
+}
+
+.controllWrap>.controll>li>a {
+    display: block;
+    width: 11px;
+    height: 19px;
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: -9999px;
+}
+
+.controll>.left>a {
+    background-image: url(../images/sl_prev.png);
+}
+
+.controll>.right>a {
+    background-image: url(../images/sl_next.png);
+}
+
+.controll>.playStop>a {
+    background-image: url(../images/sl_pause.png);
+}

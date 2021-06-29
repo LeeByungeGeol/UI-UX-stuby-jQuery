@@ -1,0 +1,44 @@
+header {
+    width: 100%
+}
+.center {
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+.headTop {
+    height: 100px;
+    background: #eee;
+    text-align: center;
+}
+.headTop .gnb{
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+.headTop .gnb>li{
+    float: left;
+    margin-left: 15px;
+}
+.headBottom{
+    background: #333;
+    line-height: 70px;
+    height: 70px;
+}
+.headBottom #nav{
+    float: left;
+}
+.headBottom .topmenu{
+    float: right;
+}
+.headBottom a{
+    color: white;
+}
+.headBottom li{
+    float: left;
+    margin: 0 10px;
+}
+
+#container>p{
+    font-size: 20px;
+}
